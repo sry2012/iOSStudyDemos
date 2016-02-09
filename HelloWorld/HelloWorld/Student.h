@@ -18,6 +18,11 @@
 -(int)getAge;
 -(void)setAge:(int)Age;
 -(void)setStudentNum:(int)studentNum;
--(id)Student:(int)s_num :(NSString *)s_name :(int)s_age: (NSString *)s_sex;
--(void)showInfo ;
+-(void)showInfo;
+
+- (id)initWithStudentNum:(int)s_num
+                 stuName:(NSString *)s_name
+                  stuAge:(int)s_age
+               stuGender:(NSString *)s_sex;
+
 @end

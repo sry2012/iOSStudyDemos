@@ -34,7 +34,8 @@
     //Student *s=[Student new];
     //[s setAge:20];
     //NSLog(@"The student is %d years old.",[s getAge]);
-    Student *s = [[Student alloc] Student:221200416 : @"sry" : 25 : @"man" ];
+    Student *s = [[Student alloc] initWithStudentNum:221200416 stuName:@"sry"  stuAge:20 stuGender:@"man"];
+                  
     [s showInfo];
     
     

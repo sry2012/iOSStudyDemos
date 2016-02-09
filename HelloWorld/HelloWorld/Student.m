@@ -9,7 +9,11 @@
 #import "Student.h"
 
 @implementation Student
--(id)Student:(int)s_num :(NSString *)s_name :(int)s_age: (NSString *)s_sex
+
+- (id)initWithStudentNum:(int)s_num
+                 stuName:(NSString *)s_name
+                  stuAge:(int)s_age
+               stuGender:(NSString *)s_sex
 {
     if (self ==[super init]) {
         [self setStudentNum:s_num];
